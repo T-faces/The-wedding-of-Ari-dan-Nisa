@@ -1,11 +1,12 @@
-iBEGIN:VCALENDAR
+BEGIN:VCALENDAR
 PRODID:-//Google Inc//Google Calendar 70.9054//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Akad dan Walimah
+X-WR-CALNAME:Akad Nikah & Walimah
 X-WR-TIMEZONE:Asia/Jakarta
-X-WR-CALDESC:Akad Nikah dan Walimatul 'Ursy\nBeauti Zahra Tu Nisa & Ari Agung Satria, S.Pd., Gr.
+X-WR-CALDESC:Beauti Zahra Tu Nisa & Ari Agung Satria\, S.Pd.\, Gr.
+END:VCALENDAR
 BEGIN:VEVENT
 DTSTART:20260608T090000Z
 DTEND:20260608T170000Z
