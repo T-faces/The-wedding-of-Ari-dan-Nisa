@@ -3,7 +3,71 @@ PRODID:-//Google Inc//Google Calendar 70.9054//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Akad Nikah & Walimah
+X-WR-CALNAME:Akad dan Walimah
 X-WR-TIMEZONE:Asia/Jakarta
 X-WR-CALDESC:Beauti Zahra Tu Nisa & Ari Agung Satria\, S.Pd.\, Gr.
+BEGIN:VEVENT
+DTSTART:20220520T020000Z
+DTEND:20220520T030000Z
+DTSTAMP:20220316T201356Z
+ORGANIZER;CN=Akad dan Walimah:mailto:p68227rf4u2tqb5orkf10m3u44@group.calen
+ dar.google.com
+UID:5m3ca0jounu3mnnof0v5qi9b6e@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ ulidannashuha@gmail.com;X-NUM-GUESTS=0:mailto:maulidannashuha@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=rayhan
+ yulanda@gmail.com;X-NUM-GUESTS=0:mailto:rayhanyulanda@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/sey-bzwd-coz
+CLASS:PUBLIC
+CREATED:20211120T164101Z
+DESCRIPTION:<html-blob><b>Bismillahirrahmanirrahim</b><br>Kami mengundang B
+ apak/Ibu/Saudara/i untuk hadir di acara pernikahan kami. InsyaAllah akan di
+ adakan di<br><br>Akad Nikah : Desa Kapuran Pasar Madang\, 08 Juni 2026 - 09:00.<
+ br>Walimatul 'Ursy : Desa Kapuran Pasar Madang\, 08 Juni 2026 - 10:00.<br><br>Sel
+ engkapnya :&nbsp\;<a href="#" id="ow573" __is_owner
+ ="true"></a><br><br>Regards\,<br><u>Nisa dan Ari</u></html-blob>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nDo not edit this section of the descr
+ iption.\n\nThis event has a video call.\nJoin: https://meet.google.com/sey-
+ bzwd-coz\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20220316T201156Z
+LOCATION:Desa Kapuran\, Pasar Madang\, Kec. Kotaagung\, Kota
+  Tanggamus\, 35384\, Indonesia
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Akad Nikah Nisa dan Ari
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220521T030000Z
+DTEND:20220521T070000Z
+DTSTAMP:20220316T201356Z
+ORGANIZER;CN=Akad dan Walimah:mailto:p68227rf4u2tqb5orkf10m3u44@group.calen
+ dar.google.com
+UID:01sscn507drh3vuf423pi7s9g0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ ulidannashuha@gmail.com;X-NUM-GUESTS=0:mailto:maulidannashuha@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=rayhan
+ yulanda@gmail.com;X-NUM-GUESTS=0:mailto:rayhanyulanda@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/sey-bzwd-coz
+CLASS:PUBLIC
+CREATED:20211120T164336Z
+DESCRIPTION:<html-blob><b>Bismillahirrahmanirrahim</b><br>Kami mengundang B
+ apak/Ibu/Saudara/i untuk hadir di acara pernikahan kami. InsyaAllah akan di
+ adakan di<br><br>Akad Nikah : Desa Kapuran Pasar Madang\, 08 Juni 2026 - 09:00.<
+ br>Walimatul 'Ursy : Desa Kapuran Pasar Madang\, 08 Juni 2026 - 10:00.<br><br>Sel
+ engkapnya :&nbsp\;<a href="#" id="ow573" __is_owner
+ ="true"></a><br><br>Regards\,<br><u>Nisa dan Ari</u></html-blob>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nDo not edit this section of the descr
+ iption.\n\nThis event has a video call.\nJoin: https://meet.google.com/sey-
+ bzwd-coz\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20220316T201316Z
+LOCATION:LOCATION:Desa Kapuran\, Pasar Madang\, Kec. Kotaagung\, Kota
+  Tanggamus\, 35384\, Indonesia
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Walimatul 'Ursy Nisa dan Ari
+TRANSP:OPAQUE
+END:VEVENT
 END:VCALENDAR
