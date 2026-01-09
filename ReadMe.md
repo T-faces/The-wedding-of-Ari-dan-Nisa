@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">
+  <a href="https://t-faces.github.io/The-wedding-of-Ari-dan-Nisa/">
     <img src="images/readme/half%20circle.png" alt="Logo" width="120" height="120">
   </a>
 
