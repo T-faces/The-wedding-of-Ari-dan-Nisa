@@ -13,10 +13,8 @@ DTSTAMP:20260607T201356Z
 ORGANIZER;CN=Akad dan Walimah:mailto:p68227rf4u2tqb5orkf10m3u44@group.calen
  dar.google.com
 UID:5m3ca0jounu3mnnof0v5qi9b6e@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
- ulidannashuha@gmail.com;X-NUM-GUESTS=0:mailto:maulidannashuha@gmail.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=rayhan
- yulanda@gmail.com;X-NUM-GUESTS=0:mailto:rayhanyulanda@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=beautizahratunisa@gmail.com;X-NUM-GUESTS=0:mailto:ariagungsatria01@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=beautizahratunisa@gmail.com;X-NUM-GUESTS=0:mailto:beautizahratunisa@gmail.com
 X-GOOGLE-CONFERENCE:https://meet.google.com/sey-bzwd-coz
 CLASS:PUBLIC
 CREATED:20260110T164101Z
