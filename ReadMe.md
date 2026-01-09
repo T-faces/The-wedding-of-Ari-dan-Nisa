@@ -39,7 +39,7 @@
 - Music from youtube API
 
 <!-- The wedding -->
-## Maulidan Nashuha <img src="images/readme/man.png" width="30px">
+## Ari Agung Satria,S.Pd.,Gr. <img src="images/readme/man.png" width="30px">
 
 
 
@@ -68,7 +68,7 @@ Reach me around the web :
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Rayhan Yulanda <img src="images/readme/woman.png" width="30px">
+## Beauti Zahra Tu Nisa <img src="images/readme/woman.png" width="30px">
 
 
 
