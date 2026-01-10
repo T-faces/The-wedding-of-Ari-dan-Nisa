@@ -34,7 +34,7 @@
 - Event date
 - Gallery photos
 - Quotes
-- Health protocol
+- Send Gifts
 - RSVP with issue API
 - Music from youtube API
 
