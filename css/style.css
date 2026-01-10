@@ -2043,6 +2043,7 @@ form label {
 #fh5co-health-protocol .description h3{
   margin-top: 15px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .event-col{
@@ -2336,5 +2337,15 @@ fadeIn {  from {
   background-position: 50% 0;
   background-size: cover;
 }
+
+.gift-info{
+  text-align: center;
+}
+
+.bank-logo{
+  display: block;
+  margin: 0 auto;
+}
+
 
 /*# sourceMappingURL=style.css.map */
