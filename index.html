@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The Wedding of Ari and Nisa" />
 	<meta name="keywords" content="wedding, wedding invitation, invitation, the wedding" />
-	<meta name="author" content="Rehan & Maulidan" />
+	<meta name="author" content="Nisa & Ari" />
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:type" content="website">
@@ -342,7 +342,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Galeri Foto</h2>
-					<h3 style="color: #bf9b73">Khitbah Day - 07 November 2021</h3>
+					<h3 style="color: #bf9b73">Khitbah Day - 18 April 2026</h3>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md animate-box">
@@ -416,16 +416,15 @@
 			</div>
 		</div>
 	</div>
-	<!--div id="fh5co-health-protocol">
-<!--		<img src="images/background/blue-brush-1.jpg" alt="">
+	<div id="fh5co-health-protocol">
+<!--		<img src="images/background/blue-brush-1.jpg" alt=""-->
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Protokol Kesehatan & Anjuran</h2>
-					<p style="color: #bf9b73">Guna mencegah penyebaran Covid-19, diharapkan bagi tamu undangan untuk mematuhi Protokol Kesehatan di bawah ini :</p>
+					<h2>🎁Kirim Hadiah</h2>
+					<p style="color: #bf9b73">Doa restu Anda merupakan hadiah terindah bagi kami</p>
 				</div>
-
-				<div class="col-md-8 col-md-offset-2 text-center">
+				<!--div class="col-md-8 col-md-offset-2 text-center">
 					<div class="row">
 						<div class="col-md-4 col-xs-6">
 							<div class="item-protocol">
@@ -506,27 +505,51 @@
 									<p>Mohon memperhatikan adab makan dan minum (duduk, membaca bismillah, tidak mencela makanan dan tidak mubazir)</p>
 								</div>
 							</div>
-						</div>
+						</div-->
 						<div class="col-md-4 col-xs-6">
 							<div class="item-protocol">
-								<div class="icon">
+								<!--div class="icon">
 									<img style="padding: 15px" height="100px" width="100px" src="images/health-protocol/no-shaking-hands.png" alt="Jaga jarak"/>
-								</div>
+								</div-->
 								<div class="description">
-									<h3>Tidak Bercampur Baur</h3>
-									<p>Mohon untuk tidak bercampur baur dan tidak bersalaman antara tamu laki-laki dan perempuan termasuk saat berfoto (kecuali dengan mahram)</p>
-								</div>
+									<!--h3>Mempelai Wanita</h3-->
+	<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Bank_Syariah_Indonesia.svg" alt="Logo BSI" width="120" class="bank-logo">
+	<!--div class="gift-info">
+		<span>Nama Bank</span>
+		<strong>BSI</strong>
+	</div-->
+	<div class="gift-info">
+		<span>Nomor Rekening</span>
+		<strong id="rek-wanita">7339022253</strong>
+	</div>
+	<div class="gift-info">
+		<span>Atas Nama</span><br>
+		<strong>Beauti Zahra Tu Nisa</strong>
+	</div>
+	<button style="display:block;margin:15px auto;" onclick="copyRekening('rek-wanita')">📋 Salin Rekening</button></div>
 							</div>
-</div-->
+</div>
 						<div class="col-md-4 col-xs-6">
 							<div class="item-protocol">
-								<div class="icon">
+								<!--div class="icon">
 									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/rug.png" alt="Sholat"/>
-								</div>
+								</div-->
 								<div class="description">
-									<h3>Sholat</h3>
-									<p>Memperhatikan waktu shalat wajib dan tidak meninggalkannya</p>
-								</div>
+									<!--h3>Mempelai Pria</h3-->
+	<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/BANK_BRI_logo.svg" alt="Logo BSI" width="120" class="bank-logo">
+	<!--div class="gift-info">
+		<span>Nama Bank</span>
+		<strong>BRI</strong>
+	</div-->
+	<div class="gift-info">
+		<span>Nomor Rekening</span>
+		<strong id="rek-pria">577401028366531</strong>
+	</div>
+	<div class="gift-info">
+		<span>Atas Nama</span><br>
+		<strong>Ari Agung Satria</strong>
+	</div>
+	<button style="display:block;margin:15px auto;" onclick="copyRekening('rek-pria')">📋 Salin Rekening</button></div>
 							</div>
 						</div>
 					</div>
@@ -936,6 +959,16 @@
 
 	// Since we are using dynamic mode, we need to programmatically open lightGallery
 	inlineGallery.openGallery();
+</script>
+
+<script>
+function copyRekening(id) {
+  const text = document.getElementById(id).innerText;
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      alert("Nomor rekening berhasil disalin");
+    });
+}
 </script>
 
 </body>
