@@ -34,9 +34,13 @@
 - Event date
 - Gallery photos
 - Quotes
-- Send Gifts
+- Send Gifts (New)
 - RSVP with issue API
 - Music from youtube API
+- Menampilkan Nama Tamu Otomatis
+Pada link asli, mereka menggunakan parameter di URL.(Nantinya, kirim link ke teman Anda seperti ini:
+https://username.github.io/repo/?to=Budi+Santoso)
+
 
 <!-- The wedding -->
 ## Ari Agung Satria,S.Pd.,Gr. <img src="images/readme/man.png" width="30px">
