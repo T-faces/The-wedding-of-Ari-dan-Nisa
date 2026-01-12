@@ -16,7 +16,7 @@
   <h1 align="center">The Wedding</h1>
 
   <p align="center">
-    <strong>Nisa & Ari</strong>
+    <strong>Beauti & Ari</strong>
     <br />
     <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">Explore the Invitation ! »</a>
     <br />
