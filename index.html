@@ -970,7 +970,15 @@ function copyRekening(id) {
     });
 }
 </script>
-
+<script>
+	//Nama tamu
+	const urlParams = new URLSearchParams(window.location.search);
+const namaTamu = urlParams.get('to');
+if (namaTamu) {
+    document.querySelector('.guest-name').innerText = namaTamu;
+}
+</script>
+	
 </body>
 </html>
 
