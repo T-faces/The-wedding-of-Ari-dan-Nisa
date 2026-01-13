@@ -18,12 +18,12 @@
   <p align="center">
     <strong>Beauti & Ari</strong>
     <br />
-    <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">Explore the Invitation ! »</a>
+    <a href="https://t-faces.github.io/The-wedding-of-Ari-dan-Nisa/">Explore the Invitation ! »</a>
     <br />
     <br />
-    <a href="#">Beauti Zahra Tu Nisa</a>
+    <a href="https://www.instagram.com/zhratunisa5">Beauti Zahra Tu Nisa</a>
     ·
-    <a href="#">Ari Agung Satria, S.Pd.,Gr.</a>
+    <a href="https://www.instagram.com/aray.as_">Ari Agung Satria, S.Pd.,Gr.</a>
   </p>
 </div>
 
@@ -49,13 +49,13 @@ https://username.github.io/repo/?to=Budi+Santoso)
 
 Reach me around the web :
 
-<a href="https://www.linkedin.com/in/maulidannashuha/" target="_blank">
+<!--a href="https://www.linkedin.com/in/maulidannashuha/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://www.github.com/maulidannashuha/" target="_blank">
+</a-->
+<a href="https://github.com/T-faces" target="_blank">
 <img src="https://img.shields.io/badge/Github-%fedcba.svg?&style=flat-square&logo=github&logoColor=white&color=black" alt="Github">
 </a>
-<a href="https://www.instagram.com/maulidannashuha/" target="_blank">
+<a href="https://www.instagram.com/aray.as_" target="_blank">
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram">
 </a>
 <!--<a href="https://twitter.com/ngodingsolusi" target="_blank">
@@ -78,18 +78,21 @@ Reach me around the web :
 
 Reach me around the web :
 
-<a href="https://linkedin.com/in/rayhanyulanda">
+<a href="https://www.instagram.com/zhratunisa5" target="_blank">
+<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram">
+</a>
+<!--a href="https://linkedin.com/in/rayhanyulanda">
   <img alt="Rehan's Linkdein" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/linkedin.png" />
-</a>
-<a target="_blank" href="https://github.com/rayhanyulanda">
+</a-->
+<!--a target="_blank" href="https://github.com/rayhanyulanda">
 <img alt="Rehan's Github" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/github.png" />
-</a>
-<a target="_blank" href="https://www.facebook.com/rayhanyulanda/">
+</a-->
+<a target="_blank" href="#/">
 <img alt="Rehan's Facebook" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/facebook.png" />
 </a>
-<a target="_blank" href="https://medium.com/@rayhanyulanda">
+<!--a target="_blank" href="https://medium.com/@rayhanyulanda">
 <img alt="Rehan's Medium" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/medium.png" />
-</a>
+</a-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
