@@ -63,7 +63,29 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<style>
+	/* Pengaturan khusus untuk perangkat mobile (HP) */
+	@media screen and (max-width: 768px) {
+		#fh5co-header, 
+		.fh5co-cover, 
+		#fh5co-started,
+		.fh5co-bg {
+			background-position: center center !important;
+			background-attachment: scroll !important; /* Memastikan background tidak 'patah' di mobile browser */
+		}
 
+		/* Jika ingin memastikan overlay warna tetap menutupi seluruh area */
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+</style>
 	</head>
 	<body>
 		
