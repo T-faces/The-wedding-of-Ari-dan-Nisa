@@ -84,7 +84,30 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+		<style>
+    @media screen and (max-width: 768px) {
+        /* Memaksa semua elemen yang punya background-image agar posisinya center */
+        [style*="background-image"] {
+            background-position: center center !important;
+            background-size: cover !important;
+            background-attachment: scroll !important; /* Penting untuk iOS/Safari */
+        }
 
+        /* Khusus untuk ID utama agar tidak meleset */
+        #fh5co-header, 
+        #fh5co-started, 
+        .fh5co-cover, 
+        .fh5co-bg {
+            background-position: center center !important;
+            background-size: cover !important;
+        }
+        
+        /* Menyesuaikan tinggi header di HP agar konten tidak terpotong */
+        .fh5co-cover-sm {
+            height: 600px; /* Anda bisa sesuaikan angka ini */
+        }
+    }
+</style>
 </head>
 <body>
 
