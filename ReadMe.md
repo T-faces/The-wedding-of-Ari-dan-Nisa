@@ -35,7 +35,7 @@
 - Gallery photos
 - Quotes
 - Send Gifts (New)
-- RSVP with issue API
+- RSVP with Google Sheets as Database and Google Apps Script as API.
 - Music from youtube API
 - Menampilkan Nama Tamu Otomatis
 Pada link asli, mereka menggunakan parameter di URL.(Nantinya, kirim link ke teman Anda seperti ini:
