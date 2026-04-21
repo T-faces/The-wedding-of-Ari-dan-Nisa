@@ -581,8 +581,44 @@
 			</div>
 		</div>
 	</div>
+<div id="fh5co-testimonial" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat; border-top: 1px solid #f2f2f2">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h2>Buku Tamu & Ucapan</h2>
+                <span style="color: #bf9b73">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.</span>
+            </div>
+        </div>
 
-	<div id="fh5co-testimonial" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat; border-top: 1px solid #f2f2f2">
+        <div class="row animate-box" style="margin-bottom: 30px;">
+            <div class="col-md-8 col-md-offset-2">
+                <form id="guestbook-form" style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <div class="form-group">
+                        <input type="text" id="input-nama" class="form-control" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="input-keterangan" class="form-control">
+                            <option value="Hadir">Hadir</option>
+                            <option value="Berhalangan">Berhalangan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="input-ucapan" class="form-control" rows="3" placeholder="Berikan ucapan & doa..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="btn-kirim">Kirim Ucapan</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="display-ucapan" class="list-group" style="max-height: 400px; overflow-y: auto;">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<!--div id="fh5co-testimonial" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat; border-top: 1px solid #f2f2f2">
 		<img height="400" class="flower-bukutamu-right" style="right: 0;top: 0;position: absolute;" src="images/background/flowers/top-right-3.svg">
 		<img height="400" class="flower-bukutamu-left" style="position: absolute; left: 0; bottom: 0" src="images/background/flowers/bottom-left-3.svg">
 		<div class="container">
@@ -591,7 +627,7 @@
 					<h2>Buku Tamu & Ucapan</h2>
 					<span style="color: #bf9b73">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.</span>
 				</div>
-			</div>
+</div-->
 			<!--<div class="row">
                 <div class="col-md-12 animate-box">
                     <div class="wrap-testimony">
@@ -634,7 +670,7 @@
                 </div>
             </div>-->
 
-			<div class="row animate-box">
+			<!--div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="list-group"></div>
 				</div>
@@ -645,7 +681,7 @@
 				<i style="font-size: 15px">Note : Hanya bisa diisi jika mempunyai akun github. Jika belum ada silahkan daftar terlebih dahulu</i>
 			</div>
 		</div>
-	</div>
+</div-->
 
 	<!--<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
 		<div class="overlay"></div>
@@ -784,23 +820,58 @@
 		}*/
 	});
 
-	$.get( "https://api.github.com/repos/t-faces/the-wedding-of-ari-dan-nisa/issues?state=all&per_page", function( data ) {
-		for (let i = 0; i < data.length; i++){
-			const item = `
-				<a class="list-group-item">
-					<div class="name"><span class="strong" style="font-size: 24px">${data[i].user.login}</span> <span class="label label-success">${data[i].labels.length > 0 ? data[i].labels[0].name : 'Tanpa Keterangan'}</span></div>
-					<hr style="margin-top: 0;">
-					<div class="comment">${new showdown.Converter().makeHtml(data[i].body)}</div>
-				</a>
-			`;
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbxA3t__ehJkrcyRqQ9MKYy3JzjuITlghxg0TkVdODg3u557cA5kAuzIkgN0n_vvkGjZ/exec';
 
-			$("#fh5co-testimonial .list-group").append(item);
-		}
-	});
+    // Fungsi Ambil Data
+    function loadComments() {
+        $.get(scriptURL, function(data) {
+            $("#display-ucapan").empty();
+            for (let i = 0; i < data.length; i++) {
+                const item = `
+                    <div class="list-group-item" style="margin-bottom:10px; border-radius:5px;">
+                        <div class="name">
+                            <strong style="font-size: 18px; color: #333;">${data[i].nama}</strong> 
+                            <span class="label ${data[i].keterangan === 'Hadir' ? 'label-success' : 'label-danger'}">${data[i].keterangan}</span>
+                        </div>
+                        <p style="margin-top: 10px; color: #666; font-style: italic;">"${data[i].ucapan}"</p>
+                    </div>
+                `;
+                $("#display-ucapan").append(item);
+            }
+        });
+    }
 
-	function scrollToElement(el) {
-		$("html, body").animate({ scrollTop: $(`#${el}`).offset().top }, 1000);
-	}
+    // Fungsi Kirim Data
+    $('#guestbook-form').submit(function(e) {
+        e.preventDefault();
+        $('#btn-kirim').attr('disabled', true).text('Mengirim...');
+
+        const payload = {
+            nama: $('#input-nama').val(),
+            keterangan: $('#input-keterangan').val(),
+            ucapan: $('#input-ucapan').val()
+        };
+
+        fetch(scriptURL, {
+            method: 'POST',
+            body: JSON.stringify(payload)
+        })
+        .then(res => {
+            alert('Terima kasih atas ucapannya!');
+            $('#guestbook-form')[0].reset();
+            $('#btn-kirim').attr('disabled', false).text('Kirim Ucapan');
+            loadComments(); // Refresh daftar
+        })
+        .catch(err => {
+            alert('Gagal mengirim. Coba lagi.');
+            $('#btn-kirim').attr('disabled', false).text('Kirim Ucapan');
+        });
+    });
+
+    // Jalankan saat halaman load
+    $(document).ready(function() {
+        loadComments();
+    });
 </script>
 
 <script>
