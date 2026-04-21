@@ -39,7 +39,7 @@
 - Music from youtube API
 - Menampilkan Nama Tamu Otomatis
 Pada link asli, mereka menggunakan parameter di URL.(Nantinya, kirim link ke teman Anda seperti ini:
-https://username.github.io/repo/?to=Budi+Santoso)
+https://username.github.io/repo/?to=Budi+Santoso) untuk lebih mudah silahkan menggunakan link share wedding otomatis kirim WA yang ini : <a href="https://gemini.google.com/share/79a38dee8b96">Aplikasi Share Link Wedding</a>
 
 
 <!-- The wedding -->
