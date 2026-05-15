@@ -34,10 +34,10 @@
 - Event date
 - Gallery photos
 - Quotes
-- Send Gifts (New)
-- RSVP with Google Sheets as Database and Google Apps Script as API.
+- Send Gifts (New Update)
+- RSVP with Google Sheets as Database and Google Apps Script as API. (New Update)
 - Music from youtube API
-- Menampilkan Nama Tamu Otomatis
+- Menampilkan Nama Tamu Otomatis (New Update)
 Pada link asli, mereka menggunakan parameter di URL.(Nantinya, kirim link ke teman Anda seperti ini:
 https://username.github.io/repo/?to=Budi+Santoso)
 
